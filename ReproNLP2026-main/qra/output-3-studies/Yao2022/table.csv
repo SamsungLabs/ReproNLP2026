@@ -1,0 +1,24 @@
+Type of Result,QC,System,Measure applied,System level,QC level,Study level (n=3)
+Type I,Answer Relevancy,GT,(mean) CV*↓,6.00,13.08,12.13
+,,PAQ,,16.16,,
+,,QAG,,17.09,,
+,Question Relevancy,GT,(mean) CV*↓,4.39,9.38,
+,,PAQ,,12.83,,
+,,QAG,,10.91,,
+,Readability,GT,(mean) CV*↓,14.68,13.93,
+,,PAQ,,12.60,,
+,,QAG,,14.51,,
+,,,,,,
+Type II,Answer Relevancy,all,mean r ↑,n/a,0.992,n/a
+,,all,mean ρ ↑,n/a,0.744,
+,,all,W ↑,n/a,0.750,
+,Question Relevancy,all,mean r ↑,n/a,0.996,
+,,all,mean ρ ↑,n/a,1.000,
+,,all,W ↑,n/a,1.000,
+,Readability,all,mean r ↑,n/a,0.998,
+,,all,mean ρ ↑,n/a,1.000,
+,,all,W ↑,n/a,1.000,
+,,,,,,
+Type IV,Answer Relevancy,all,P↑,n/a,0.667,0.889
+,Question Relevancy,all,P↑,n/a,1.000,
+,Readability,all,P↑,n/a,1.000,
