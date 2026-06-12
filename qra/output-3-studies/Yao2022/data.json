@@ -1,0 +1,1024 @@
+{
+  "name": "Yao2022",
+  "n": 3,
+  "experiments": [
+    "O",
+    "R1",
+    "R3"
+  ],
+  "criteria": [
+    "Answer Relevancy",
+    "Question Relevancy",
+    "Readability"
+  ],
+  "systems": [
+    "GT",
+    "PAQ",
+    "QAG"
+  ],
+  "result_types": {
+    "Type I": {
+      "result_type": "Type I",
+      "precision": 2,
+      "per_level_results": {
+        "Criterion": {
+          "level": "Criterion",
+          "mode": "QRA++",
+          "n": 3,
+          "criterion": {
+            "Answer Relevancy": {
+              "v": 13.083440746148227,
+              "method": "mean"
+            },
+            "Question Relevancy": {
+              "v": 9.37714902322458,
+              "method": "mean"
+            },
+            "Readability": {
+              "v": 13.929987318968076,
+              "method": "mean"
+            }
+          }
+        },
+        "Study": {
+          "level": "Study",
+          "mode": "QRA++",
+          "n": 3,
+          "study": {
+            "All": {
+              "v": 12.130192362780294,
+              "method": "mean"
+            }
+          }
+        },
+        "System": {
+          "level": "System",
+          "mode": "QRA++",
+          "n": 3,
+          "system": {
+            "Answer Relevancy": {
+              "criterion": [
+                "Answer Relevancy"
+              ],
+              "results": {
+                "GT": {
+                  "coefficient_of_variation": 6.000443729566608,
+                  "apply_over_correction": false,
+                  "unbiased_coefficient_of_variation": null,
+                  "unbiassed_sample_std_dev_s_c_4": 0.21723049430965738,
+                  "normal_data": true,
+                  "kappa": null,
+                  "degrees_of_freedom": 2,
+                  "est_SE_of_SD_based_on_SE_of_unbiassed_sample_variance": 0.08530621563236238,
+                  "confidence": 0.95,
+                  "confidence_interval": [
+                    -0.14981252724552283,
+                    0.5842735158648376
+                  ],
+                  "count_within_1_sd": 3,
+                  "count_within_2_sd": 3,
+                  "sample_size": 3,
+                  "sample_mean": 3.6202405038693235,
+                  "measurements": [
+                    4.83402489626556,
+                    4.460580912863071,
+                    4.566115702479339
+                  ],
+                  "adjusted_measurements": [
+                    3.83402489626556,
+                    3.4605809128630707,
+                    3.5661157024793386
+                  ]
+                },
+                "PAQ": {
+                  "coefficient_of_variation": 16.160581280294085,
+                  "apply_over_correction": false,
+                  "unbiased_coefficient_of_variation": null,
+                  "unbiassed_sample_std_dev_s_c_4": 0.4248886161610653,
+                  "normal_data": true,
+                  "kappa": null,
+                  "degrees_of_freedom": 2,
+                  "est_SE_of_SD_based_on_SE_of_unbiassed_sample_variance": 0.166853369390692,
+                  "confidence": 0.95,
+                  "confidence_interval": [
+                    -0.293023489115691,
+                    1.1428007214378217
+                  ],
+                  "count_within_1_sd": 2,
+                  "count_within_2_sd": 3,
+                  "sample_size": 3,
+                  "sample_mean": 2.629166666666667,
+                  "measurements": [
+                    3.904166666666667,
+                    3.2,
+                    3.783333333333333
+                  ],
+                  "adjusted_measurements": [
+                    2.904166666666667,
+                    2.2,
+                    2.783333333333333
+                  ]
+                },
+                "QAG": {
+                  "coefficient_of_variation": 17.089297228583984,
+                  "apply_over_correction": false,
+                  "unbiased_coefficient_of_variation": null,
+                  "unbiassed_sample_std_dev_s_c_4": 0.4488284242950732,
+                  "normal_data": true,
+                  "kappa": null,
+                  "degrees_of_freedom": 2,
+                  "est_SE_of_SD_based_on_SE_of_unbiassed_sample_variance": 0.1762545100609606,
+                  "confidence": 0.95,
+                  "confidence_interval": [
+                    -0.3095335245493729,
+                    1.2071903731395193
+                  ],
+                  "count_within_1_sd": 3,
+                  "count_within_2_sd": 3,
+                  "sample_size": 3,
+                  "sample_mean": 2.626371455137146,
+                  "measurements": [
+                    3.98744769874477,
+                    3.2,
+                    3.691666666666667
+                  ],
+                  "adjusted_measurements": [
+                    2.98744769874477,
+                    2.2,
+                    2.691666666666667
+                  ]
+                }
+              }
+            },
+            "Question Relevancy": {
+              "criterion": [
+                "Question Relevancy"
+              ],
+              "results": {
+                "GT": {
+                  "coefficient_of_variation": 4.392210665432727,
+                  "apply_over_correction": false,
+                  "unbiased_coefficient_of_variation": null,
+                  "unbiassed_sample_std_dev_s_c_4": 0.16501830131672393,
+                  "normal_data": true,
+                  "kappa": null,
+                  "degrees_of_freedom": 2,
+                  "est_SE_of_SD_based_on_SE_of_unbiassed_sample_variance": 0.06480253539056084,
+                  "confidence": 0.95,
+                  "confidence_interval": [
+                    -0.11380450447615878,
+                    0.44384110710960667
+                  ],
+                  "count_within_1_sd": 3,
+                  "count_within_2_sd": 3,
+                  "sample_size": 3,
+                  "sample_mean": 3.757067087319822,
+                  "measurements": [
+                    4.921161825726141,
+                    4.70954356846473,
+                    4.640495867768595
+                  ],
+                  "adjusted_measurements": [
+                    3.9211618257261414,
+                    3.7095435684647304,
+                    3.6404958677685952
+                  ]
+                },
+                "PAQ": {
+                  "coefficient_of_variation": 12.826829575909585,
+                  "apply_over_correction": false,
+                  "unbiased_coefficient_of_variation": null,
+                  "unbiassed_sample_std_dev_s_c_4": 0.3600419801793511,
+                  "normal_data": true,
+                  "kappa": null,
+                  "degrees_of_freedom": 2,
+                  "est_SE_of_SD_based_on_SE_of_unbiassed_sample_variance": 0.14138815498942142,
+                  "confidence": 0.95,
+                  "confidence_interval": [
+                    -0.24830215084012297,
+                    0.9683861111988251
+                  ],
+                  "count_within_1_sd": 2,
+                  "count_within_2_sd": 3,
+                  "sample_size": 3,
+                  "sample_mean": 2.806944444444445,
+                  "measurements": [
+                    4.175,
+                    3.608333333333333,
+                    3.6375
+                  ],
+                  "adjusted_measurements": [
+                    3.175,
+                    2.608333333333333,
+                    2.6375
+                  ]
+                },
+                "QAG": {
+                  "coefficient_of_variation": 10.912406828331426,
+                  "apply_over_correction": false,
+                  "unbiased_coefficient_of_variation": null,
+                  "unbiassed_sample_std_dev_s_c_4": 0.3334936287872907,
+                  "normal_data": true,
+                  "kappa": null,
+                  "degrees_of_freedom": 2,
+                  "est_SE_of_SD_based_on_SE_of_unbiassed_sample_variance": 0.13096264177714426,
+                  "confidence": 0.95,
+                  "confidence_interval": [
+                    -0.22999313935033994,
+                    0.8969803969249214
+                  ],
+                  "count_within_1_sd": 3,
+                  "count_within_2_sd": 3,
+                  "sample_size": 3,
+                  "sample_mean": 3.0560960018596006,
+                  "measurements": [
+                    4.389121338912134,
+                    3.825,
+                    3.9541666666666666
+                  ],
+                  "adjusted_measurements": [
+                    3.389121338912134,
+                    2.825,
+                    2.9541666666666666
+                  ]
+                }
+              }
+            },
+            "Readability": {
+              "criterion": [
+                "Readability"
+              ],
+              "results": {
+                "GT": {
+                  "coefficient_of_variation": 14.679983784418079,
+                  "apply_over_correction": false,
+                  "unbiased_coefficient_of_variation": null,
+                  "unbiassed_sample_std_dev_s_c_4": 0.5236478401259232,
+                  "normal_data": true,
+                  "kappa": null,
+                  "degrees_of_freedom": 2,
+                  "est_SE_of_SD_based_on_SE_of_unbiassed_sample_variance": 0.2056360259509704,
+                  "confidence": 0.95,
+                  "confidence_interval": [
+                    -0.3611325682668508,
+                    1.4084282485186974
+                  ],
+                  "count_within_1_sd": 3,
+                  "count_within_2_sd": 3,
+                  "sample_size": 3,
+                  "sample_mean": 3.567087319822137,
+                  "measurements": [
+                    4.946280991735537,
+                    4.7053941908713695,
+                    4.049586776859504
+                  ],
+                  "adjusted_measurements": [
+                    3.946280991735537,
+                    3.7053941908713695,
+                    3.0495867768595044
+                  ]
+                },
+                "PAQ": {
+                  "coefficient_of_variation": 12.598581415899767,
+                  "apply_over_correction": false,
+                  "unbiased_coefficient_of_variation": null,
+                  "unbiassed_sample_std_dev_s_c_4": 0.3700833290920557,
+                  "normal_data": true,
+                  "kappa": null,
+                  "degrees_of_freedom": 2,
+                  "est_SE_of_SD_based_on_SE_of_unbiassed_sample_variance": 0.145331383486457,
+                  "confidence": 0.95,
+                  "confidence_interval": [
+                    -0.2552271447842143,
+                    0.9953938029683258
+                  ],
+                  "count_within_1_sd": 2,
+                  "count_within_2_sd": 3,
+                  "sample_size": 3,
+                  "sample_mean": 2.9375,
+                  "measurements": [
+                    4.079166666666667,
+                    4.170833333333333,
+                    3.5625
+                  ],
+                  "adjusted_measurements": [
+                    3.0791666666666666,
+                    3.1708333333333334,
+                    2.5625
+                  ]
+                },
+                "QAG": {
+                  "coefficient_of_variation": 14.511396756586384,
+                  "apply_over_correction": false,
+                  "unbiased_coefficient_of_variation": null,
+                  "unbiassed_sample_std_dev_s_c_4": 0.489298358920085,
+                  "normal_data": true,
+                  "kappa": null,
+                  "degrees_of_freedom": 2,
+                  "est_SE_of_SD_based_on_SE_of_unbiassed_sample_variance": 0.19214701622461008,
+                  "confidence": 0.95,
+                  "confidence_interval": [
+                    -0.33744352495194774,
+                    1.3160402427921176
+                  ],
+                  "count_within_1_sd": 3,
+                  "count_within_2_sd": 3,
+                  "sample_size": 3,
+                  "sample_mean": 3.371821245932125,
+                  "measurements": [
+                    4.711297071129708,
+                    4.520833333333333,
+                    3.883333333333333
+                  ],
+                  "adjusted_measurements": [
+                    3.7112970711297084,
+                    3.520833333333333,
+                    2.883333333333333
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Type II": {
+      "result_type": "Type II",
+      "precision": 3,
+      "per_level_results": {
+        "Criterion": {
+          "level": "Criterion",
+          "mode": "QRA++",
+          "n": 3,
+          "criterion": {
+            "Answer Relevancy": {
+              "criterion": [
+                "Answer Relevancy"
+              ],
+              "per_measure_results": {
+                "kendall": {
+                  "v": 0.75,
+                  "p": 0.10539922456186433,
+                  "measure": "kendall",
+                  "measurements": [
+                    [
+                      4.83402489626556,
+                      3.904166666666667,
+                      3.98744769874477
+                    ],
+                    [
+                      4.460580912863071,
+                      3.2,
+                      3.2
+                    ],
+                    [
+                      4.566115702479339,
+                      3.783333333333333,
+                      3.691666666666667
+                    ]
+                  ]
+                },
+                "pearson": {
+                  "v": 0.992206479512285,
+                  "method": "mean"
+                },
+                "spearman": {
+                  "v": 0.7440169358562926,
+                  "method": "mean"
+                }
+              }
+            },
+            "Question Relevancy": {
+              "criterion": [
+                "Question Relevancy"
+              ],
+              "per_measure_results": {
+                "kendall": {
+                  "v": 1.0,
+                  "p": 0.04978706836786395,
+                  "measure": "kendall",
+                  "measurements": [
+                    [
+                      4.921161825726141,
+                      4.175,
+                      4.389121338912134
+                    ],
+                    [
+                      4.70954356846473,
+                      3.608333333333333,
+                      3.825
+                    ],
+                    [
+                      4.640495867768595,
+                      3.6375,
+                      3.9541666666666666
+                    ]
+                  ]
+                },
+                "pearson": {
+                  "v": 0.995620546282277,
+                  "method": "mean"
+                },
+                "spearman": {
+                  "v": 1.0,
+                  "method": "mean"
+                }
+              }
+            },
+            "Readability": {
+              "criterion": [
+                "Readability"
+              ],
+              "per_measure_results": {
+                "kendall": {
+                  "v": 1.0,
+                  "p": 0.04978706836786395,
+                  "measure": "kendall",
+                  "measurements": [
+                    [
+                      4.946280991735537,
+                      4.079166666666667,
+                      4.711297071129708
+                    ],
+                    [
+                      4.7053941908713695,
+                      4.170833333333333,
+                      4.520833333333333
+                    ],
+                    [
+                      4.049586776859504,
+                      3.5625,
+                      3.883333333333333
+                    ]
+                  ]
+                },
+                "pearson": {
+                  "v": 0.9978895738932326,
+                  "method": "mean"
+                },
+                "spearman": {
+                  "v": 1.0,
+                  "method": "mean"
+                }
+              }
+            }
+          }
+        },
+        "Pairwise-Criterion": {
+          "level": "Criterion",
+          "mode": "Pairwise",
+          "n": 3,
+          "criterion": {
+            "Answer Relevancy": {
+              "criterion": [
+                "Answer Relevancy"
+              ],
+              "per_measure_results": {
+                "kendall": {},
+                "pearson": {
+                  "pairwise_results": {
+                    "O|R1": {
+                      "v": 0.9967194743744456,
+                      "p": 0.05158051045651979,
+                      "measure": "pearson",
+                      "measurements": {
+                        "O": [
+                          4.83402489626556,
+                          3.904166666666667,
+                          3.98744769874477
+                        ],
+                        "R1": [
+                          4.460580912863071,
+                          3.2,
+                          3.2
+                        ]
+                      }
+                    },
+                    "O|R3": {
+                      "v": 0.984457925752635,
+                      "p": 0.11238638617183953,
+                      "measure": "pearson",
+                      "measurements": {
+                        "O": [
+                          4.83402489626556,
+                          3.904166666666667,
+                          3.98744769874477
+                        ],
+                        "R3": [
+                          4.566115702479339,
+                          3.783333333333333,
+                          3.691666666666667
+                        ]
+                      }
+                    },
+                    "R1|R3": {
+                      "v": 0.9954420384097744,
+                      "p": 0.06080587571532066,
+                      "measure": "pearson",
+                      "measurements": {
+                        "R1": [
+                          4.460580912863071,
+                          3.2,
+                          3.2
+                        ],
+                        "R3": [
+                          4.566115702479339,
+                          3.783333333333333,
+                          3.691666666666667
+                        ]
+                      }
+                    }
+                  }
+                },
+                "spearman": {
+                  "pairwise_results": {
+                    "O|R1": {
+                      "v": 0.8660254037844387,
+                      "p": 0.33333333333333326,
+                      "measure": "spearman",
+                      "measurements": {
+                        "O": [
+                          4.83402489626556,
+                          3.904166666666667,
+                          3.98744769874477
+                        ],
+                        "R1": [
+                          4.460580912863071,
+                          3.2,
+                          3.2
+                        ]
+                      }
+                    },
+                    "O|R3": {
+                      "v": 0.5,
+                      "p": 0.6666666666666666,
+                      "measure": "spearman",
+                      "measurements": {
+                        "O": [
+                          4.83402489626556,
+                          3.904166666666667,
+                          3.98744769874477
+                        ],
+                        "R3": [
+                          4.566115702479339,
+                          3.783333333333333,
+                          3.691666666666667
+                        ]
+                      }
+                    },
+                    "R1|R3": {
+                      "v": 0.8660254037844387,
+                      "p": 0.33333333333333326,
+                      "measure": "spearman",
+                      "measurements": {
+                        "R1": [
+                          4.460580912863071,
+                          3.2,
+                          3.2
+                        ],
+                        "R3": [
+                          4.566115702479339,
+                          3.783333333333333,
+                          3.691666666666667
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Question Relevancy": {
+              "criterion": [
+                "Question Relevancy"
+              ],
+              "per_measure_results": {
+                "kendall": {},
+                "pearson": {
+                  "pairwise_results": {
+                    "O|R1": {
+                      "v": 0.9954325896937293,
+                      "p": 0.06086891679545036,
+                      "measure": "pearson",
+                      "measurements": {
+                        "O": [
+                          4.921161825726141,
+                          4.175,
+                          4.389121338912134
+                        ],
+                        "R1": [
+                          4.70954356846473,
+                          3.608333333333333,
+                          3.825
+                        ]
+                      }
+                    },
+                    "O|R3": {
+                      "v": 0.9995025377028461,
+                      "p": 0.020081364154940287,
+                      "measure": "pearson",
+                      "measurements": {
+                        "O": [
+                          4.921161825726141,
+                          4.175,
+                          4.389121338912134
+                        ],
+                        "R3": [
+                          4.640495867768595,
+                          3.6375,
+                          3.9541666666666666
+                        ]
+                      }
+                    },
+                    "R1|R3": {
+                      "v": 0.9919265114502559,
+                      "p": 0.08095028095038877,
+                      "measure": "pearson",
+                      "measurements": {
+                        "R1": [
+                          4.70954356846473,
+                          3.608333333333333,
+                          3.825
+                        ],
+                        "R3": [
+                          4.640495867768595,
+                          3.6375,
+                          3.9541666666666666
+                        ]
+                      }
+                    }
+                  }
+                },
+                "spearman": {
+                  "pairwise_results": {
+                    "O|R1": {
+                      "v": 1.0,
+                      "p": 0.0,
+                      "measure": "spearman",
+                      "measurements": {
+                        "O": [
+                          4.921161825726141,
+                          4.175,
+                          4.389121338912134
+                        ],
+                        "R1": [
+                          4.70954356846473,
+                          3.608333333333333,
+                          3.825
+                        ]
+                      }
+                    },
+                    "O|R3": {
+                      "v": 1.0,
+                      "p": 0.0,
+                      "measure": "spearman",
+                      "measurements": {
+                        "O": [
+                          4.921161825726141,
+                          4.175,
+                          4.389121338912134
+                        ],
+                        "R3": [
+                          4.640495867768595,
+                          3.6375,
+                          3.9541666666666666
+                        ]
+                      }
+                    },
+                    "R1|R3": {
+                      "v": 1.0,
+                      "p": 0.0,
+                      "measure": "spearman",
+                      "measurements": {
+                        "R1": [
+                          4.70954356846473,
+                          3.608333333333333,
+                          3.825
+                        ],
+                        "R3": [
+                          4.640495867768595,
+                          3.6375,
+                          3.9541666666666666
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "Readability": {
+              "criterion": [
+                "Readability"
+              ],
+              "per_measure_results": {
+                "kendall": {},
+                "pearson": {
+                  "pairwise_results": {
+                    "O|R1": {
+                      "v": 0.9966645018400111,
+                      "p": 0.0520111268487977,
+                      "measure": "pearson",
+                      "measurements": {
+                        "O": [
+                          4.946280991735537,
+                          4.079166666666667,
+                          4.711297071129708
+                        ],
+                        "R1": [
+                          4.7053941908713695,
+                          4.170833333333333,
+                          4.520833333333333
+                        ]
+                      }
+                    },
+                    "O|R3": {
+                      "v": 0.9970138981022603,
+                      "p": 0.04921024898448462,
+                      "measure": "pearson",
+                      "measurements": {
+                        "O": [
+                          4.946280991735537,
+                          4.079166666666667,
+                          4.711297071129708
+                        ],
+                        "R3": [
+                          4.049586776859504,
+                          3.5625,
+                          3.883333333333333
+                        ]
+                      }
+                    },
+                    "R1|R3": {
+                      "v": 0.9999903217374264,
+                      "p": 0.0028008778642889297,
+                      "measure": "pearson",
+                      "measurements": {
+                        "R1": [
+                          4.7053941908713695,
+                          4.170833333333333,
+                          4.520833333333333
+                        ],
+                        "R3": [
+                          4.049586776859504,
+                          3.5625,
+                          3.883333333333333
+                        ]
+                      }
+                    }
+                  }
+                },
+                "spearman": {
+                  "pairwise_results": {
+                    "O|R1": {
+                      "v": 1.0,
+                      "p": 0.0,
+                      "measure": "spearman",
+                      "measurements": {
+                        "O": [
+                          4.946280991735537,
+                          4.079166666666667,
+                          4.711297071129708
+                        ],
+                        "R1": [
+                          4.7053941908713695,
+                          4.170833333333333,
+                          4.520833333333333
+                        ]
+                      }
+                    },
+                    "O|R3": {
+                      "v": 1.0,
+                      "p": 0.0,
+                      "measure": "spearman",
+                      "measurements": {
+                        "O": [
+                          4.946280991735537,
+                          4.079166666666667,
+                          4.711297071129708
+                        ],
+                        "R3": [
+                          4.049586776859504,
+                          3.5625,
+                          3.883333333333333
+                        ]
+                      }
+                    },
+                    "R1|R3": {
+                      "v": 1.0,
+                      "p": 0.0,
+                      "measure": "spearman",
+                      "measurements": {
+                        "R1": [
+                          4.7053941908713695,
+                          4.170833333333333,
+                          4.520833333333333
+                        ],
+                        "R3": [
+                          4.049586776859504,
+                          3.5625,
+                          3.883333333333333
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "Type III": {
+      "result_type": "Type III",
+      "precision": 3
+    },
+    "Type IV": {
+      "result_type": "Type IV",
+      "precision": 3,
+      "per_level_results": {
+        "Criterion": {
+          "level": "Criterion",
+          "mode": "QRA++",
+          "n": 3,
+          "criterion": {
+            "Answer Relevancy": {
+              "n": 6,
+              "d": 9,
+              "x": null,
+              "y": null
+            },
+            "Question Relevancy": {
+              "n": 9,
+              "d": 9,
+              "x": null,
+              "y": null
+            },
+            "Readability": {
+              "n": 9,
+              "d": 9,
+              "x": null,
+              "y": null
+            }
+          }
+        },
+        "Pairwise-Criterion": {
+          "level": "Criterion",
+          "mode": "Pairwise",
+          "n": 3,
+          "criterion": {
+            "Answer Relevancy": {
+              "pairwise_results": {
+                "O|R1": {
+                  "n": 2,
+                  "d": 3,
+                  "x": [
+                    4.83402489626556,
+                    3.904166666666667,
+                    3.98744769874477
+                  ],
+                  "y": [
+                    4.460580912863071,
+                    3.2,
+                    3.2
+                  ]
+                },
+                "O|R3": {
+                  "n": 2,
+                  "d": 3,
+                  "x": [
+                    4.83402489626556,
+                    3.904166666666667,
+                    3.98744769874477
+                  ],
+                  "y": [
+                    4.566115702479339,
+                    3.783333333333333,
+                    3.691666666666667
+                  ]
+                },
+                "R1|R3": {
+                  "n": 2,
+                  "d": 3,
+                  "x": [
+                    4.460580912863071,
+                    3.2,
+                    3.2
+                  ],
+                  "y": [
+                    4.566115702479339,
+                    3.783333333333333,
+                    3.691666666666667
+                  ]
+                }
+              }
+            },
+            "Question Relevancy": {
+              "pairwise_results": {
+                "O|R1": {
+                  "n": 3,
+                  "d": 3,
+                  "x": [
+                    4.921161825726141,
+                    4.175,
+                    4.389121338912134
+                  ],
+                  "y": [
+                    4.70954356846473,
+                    3.608333333333333,
+                    3.825
+                  ]
+                },
+                "O|R3": {
+                  "n": 3,
+                  "d": 3,
+                  "x": [
+                    4.921161825726141,
+                    4.175,
+                    4.389121338912134
+                  ],
+                  "y": [
+                    4.640495867768595,
+                    3.6375,
+                    3.9541666666666666
+                  ]
+                },
+                "R1|R3": {
+                  "n": 3,
+                  "d": 3,
+                  "x": [
+                    4.70954356846473,
+                    3.608333333333333,
+                    3.825
+                  ],
+                  "y": [
+                    4.640495867768595,
+                    3.6375,
+                    3.9541666666666666
+                  ]
+                }
+              }
+            },
+            "Readability": {
+              "pairwise_results": {
+                "O|R1": {
+                  "n": 3,
+                  "d": 3,
+                  "x": [
+                    4.946280991735537,
+                    4.079166666666667,
+                    4.711297071129708
+                  ],
+                  "y": [
+                    4.7053941908713695,
+                    4.170833333333333,
+                    4.520833333333333
+                  ]
+                },
+                "O|R3": {
+                  "n": 3,
+                  "d": 3,
+                  "x": [
+                    4.946280991735537,
+                    4.079166666666667,
+                    4.711297071129708
+                  ],
+                  "y": [
+                    4.049586776859504,
+                    3.5625,
+                    3.883333333333333
+                  ]
+                },
+                "R1|R3": {
+                  "n": 3,
+                  "d": 3,
+                  "x": [
+                    4.7053941908713695,
+                    4.170833333333333,
+                    4.520833333333333
+                  ],
+                  "y": [
+                    4.049586776859504,
+                    3.5625,
+                    3.883333333333333
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "Study": {
+          "level": "Study",
+          "mode": "QRA++",
+          "n": 3,
+          "study": {
+            "All": {
+              "n": 24,
+              "d": 27,
+              "x": null,
+              "y": null
+            }
+          }
+        }
+      }
+    }
+  }
+}
